@@ -1,0 +1,336 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [scala / Compile / run] Found inputs: /Users/V/Desktop/scala/*.{java,scala},/Users/V/Desktop/scala/src/main/java/**/*.{java,scala},/Users/V/Desktop/scala/src/main/resources/**/*,/Users/V/Desktop/scala/src/main/scala/**/*.{java,scala},/Users/V/Desktop/scala/src/main/scala-2.11/**/*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Trigger.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Trigger.[0m
+[0m[[0m[0minfo[0m] [0m[0m2. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(d2f0e32c2d4b075eaa90de6c77b617eaca177c50), current stamp: Hash(d4864df8b0d5dd19f2e4360e70767ebd91284c90))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 19:40:52.566 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 19:40:52.566 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m3. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(d4864df8b0d5dd19f2e4360e70767ebd91284c90), current stamp: Hash(74628c737be626e932c551c28f50248b8051c088))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:00:32.301 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:00:32.301 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m4. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Trigger.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Trigger.[0m
+[0m[[0m[0minfo[0m] [0m[0m5. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(74628c737be626e932c551c28f50248b8051c088), current stamp: Hash(ebbd5837a0ace65d559a13296c20d8228e0a18c8))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:03:01.512 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:03:01.512 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m6. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(ebbd5837a0ace65d559a13296c20d8228e0a18c8), current stamp: Hash(ffb05b148de44bd9b4ab379ccf2b6c432d3a725a))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:03:22.941 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:03:22.941 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m7. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(ffb05b148de44bd9b4ab379ccf2b6c432d3a725a), current stamp: Hash(bf8af17b9deccda1c559f0bd9310bff101e5a1bb))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:04:16.217 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:04:16.217 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m8. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(bf8af17b9deccda1c559f0bd9310bff101e5a1bb), current stamp: Hash(7f032c9537bcf6349aba992702f79596ebb89ad8))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:05:21.688 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:05:21.688 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m9. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(7f032c9537bcf6349aba992702f79596ebb89ad8), current stamp: Hash(9a231ad78add8e888616d849ddf737d09618310e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:07:05.707 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-02 20:07:05.707 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m10. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(9a231ad78add8e888616d849ddf737d09618310e), current stamp: Hash(0361991b7a7aaca0d1c33917f42bbcc4a0959a05))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:22:04.466 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:22:04.466 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m11. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(0361991b7a7aaca0d1c33917f42bbcc4a0959a05), current stamp: Hash(b8992a934189ed1afe2af6e4d980b50239bc679e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:22:42.359 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:22:42.359 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m12. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(b8992a934189ed1afe2af6e4d980b50239bc679e), current stamp: Hash(185ce128126788a1fb2754be8fe6809d9d2a871e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:23:10.516 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:23:10.516 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m13. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(185ce128126788a1fb2754be8fe6809d9d2a871e), current stamp: Hash(7abdfdfeebbd970ef9d0aca1fadaa0f7e250389b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:33:50.644 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:33:50.644 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m14. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(7abdfdfeebbd970ef9d0aca1fadaa0f7e250389b), current stamp: Hash(9ed4d90a3c4b356cb173941e22d75cc04b4b3ece))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:35:25.336 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:35:25.336 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m15. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(9ed4d90a3c4b356cb173941e22d75cc04b4b3ece), current stamp: Hash(0ffde41497ba397e04b15501c944b62d2ce090a9))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:36:01.973 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:36:01.973 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m16. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(0ffde41497ba397e04b15501c944b62d2ce090a9), current stamp: Hash(7ddc0573c61d28fb49f6f90a874e8292c017ff18))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:36:21.499 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:36:21.499 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m17. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(7ddc0573c61d28fb49f6f90a874e8292c017ff18), current stamp: Hash(33fd3f3fe488a35ddf44c843c6cabfd8ca4f36d7))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:44:41.668 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:44:41.668 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m18. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(33fd3f3fe488a35ddf44c843c6cabfd8ca4f36d7), current stamp: Hash(34744d3c6dfc48d1f27926b55b9f95b9c5692462))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:45:10.501 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:45:10.501 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m19. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(34744d3c6dfc48d1f27926b55b9f95b9c5692462), current stamp: Hash(404fd7420feff10b36ab899f59bb8154273fc55e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:47:02.159 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:47:02.159 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m20. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(404fd7420feff10b36ab899f59bb8154273fc55e), current stamp: Hash(19146d66e1b268023a3f9547d0c5ff8f5916fd95))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:47:14.472 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:47:14.472 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m21. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(19146d66e1b268023a3f9547d0c5ff8f5916fd95), current stamp: Hash(8b7aa0f3d56ebf74104f574ce1bf54432a66d41f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:48:08.678 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:48:08.678 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m22. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(8b7aa0f3d56ebf74104f574ce1bf54432a66d41f), current stamp: Hash(f7198d4416210d4cf2728ca61506a3a18783d964))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:48:37.248 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:48:37.248 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m23. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(f7198d4416210d4cf2728ca61506a3a18783d964), current stamp: Hash(8b7aa0f3d56ebf74104f574ce1bf54432a66d41f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:49:11.276 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:49:11.276 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m24. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(8b7aa0f3d56ebf74104f574ce1bf54432a66d41f), current stamp: Hash(249dce80dafaf95ac63ee64b31579b92f5e1fe17))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:51:42.832 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:51:42.832 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m25. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(249dce80dafaf95ac63ee64b31579b92f5e1fe17), current stamp: Hash(0fbe5e625d71a8b3a314e1af0928f39256a9ce4b))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:53:56.790 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:53:56.790 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m26. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(0fbe5e625d71a8b3a314e1af0928f39256a9ce4b), current stamp: Hash(1be8e5272218ebdba60e2a8af06d750cfb1d2f5f))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:55:33.696 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:55:33.696 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m27. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(1be8e5272218ebdba60e2a8af06d750cfb1d2f5f), current stamp: Hash(a07748d696ceca031626567ae66cf9a65797f9e3))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:56:04.188 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:56:04.188 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m28. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(a07748d696ceca031626567ae66cf9a65797f9e3), current stamp: Hash(0261c43968c6bdb1e29a52b2388ac5effe2fe364))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:56:20.012 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 16:56:20.012 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m29. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(0261c43968c6bdb1e29a52b2388ac5effe2fe364), current stamp: Hash(46d029b1efc04d0a5bb7bb3e01944aecf8030c63))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:05:17.851 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:05:17.851 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m30. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(46d029b1efc04d0a5bb7bb3e01944aecf8030c63), current stamp: Hash(8bfbb8abeceaf77591dac86333117bd3d1d29cc0))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:06:43.474 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:06:43.474 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m31. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(8bfbb8abeceaf77591dac86333117bd3d1d29cc0), current stamp: Hash(81d0bdd8acad72df2c18e07f98fe8b99c02093fb))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:07:44.081 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:07:44.081 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m32. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(81d0bdd8acad72df2c18e07f98fe8b99c02093fb), current stamp: Hash(2419dfdf9e411fffc93262cde266d3334ae51cc1))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:09:04.353 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:09:04.353 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m33. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(2419dfdf9e411fffc93262cde266d3334ae51cc1), current stamp: Hash(b75e62af04ca7840178ebef605401c8b488594e1))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:10:42.998 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:10:42.998 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m34. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating update event for modified /Users/V/Desktop/scala/src/main/scala/MainClass.scala (previous stamp: Hash(b75e62af04ca7840178ebef605401c8b488594e1), current stamp: Hash(be5ee2f0127e09e28f3b876bfe2a992bc9904d2e))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived file event actions: /Users/V/Desktop/scala/src/main/scala/MainClass.scala -> Trigger. Returning: (Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:11:57.774 MT),Trigger)[0m
+[0m[[0m[0minfo[0m] [0m[0mBuild triggered by /Users/V/Desktop/scala/src/main/scala/MainClass.scala. Running 'run'.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received file event Trigger for Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala, 2019-Oct-03 17:11:57.774 MT).[0m
+[0m[[0m[0minfo[0m] [0m[0m35. Monitoring source files for scala/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m    Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0mscala / Compile / run - Accepted event for /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived Update(/Users/V/Desktop/scala/src/main/scala/MainClass.scala,FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false),FileAttributes(isDirectory = false, isOther = false,isRegularFile = true, isSymbolicLink = false))[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mReceived event for path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDropping event for unmodified path /Users/V/Desktop/scala/src/main/scala/MainClass.scala[0m

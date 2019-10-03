@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/V/Desktop/scala/project/target/.sbt-compilation-infos/scala-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/V/Desktop/scala/src/main/scala/MainClass.scala:19:26: not found: type SQLContext[0m
+[0m[[0m[31merror[0m] [0m[0m    val sqlContext = new SQLContext(sc)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/V/Desktop/scala/project/target/.sbt-compilation-infos/scala-compile/.sbt-idea-lock.[0m

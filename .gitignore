@@ -1,0 +1,4 @@
+*.[oa]
+*~
+*.jar
+scala/out/
