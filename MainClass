@@ -54,6 +54,7 @@ object MainClass{
     //val d = readFull.select('text).collect().map(rows => rows.getString(0))//.map(line => line.replaceAll(regex2, ""))
     val ds2 = data2.map(rows => rows.getString(0)).rdd
 
+    // Patterns for word processing 
     val pat = """[^\w\s\.\$]"""
     val pat2 = """\s\w{2}\s"""
     val pat3 = """(\w)\.(?!\S)""" // remove dot after word
