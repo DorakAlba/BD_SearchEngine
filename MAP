@@ -1,0 +1,55 @@
+import pandas as pd
+import numpy as np
+import glob
+import os
+
+path = r'C:\Desktop\Query' # use your path
+all_files = glob.glob(path + "/*.csv")
+
+frame  = pd.DataFrame()
+for filename in all_files:
+    df = pd.read_csv(filename, header=None)
+    if df.shape[0] < 10:
+        zero_df = pd.DataFrame(np.zeros((10-df.shape[0], 1)))
+        df = pd.concat([df[0],zero_df], axis=0, ignore_index=True)
+    elif df.shape[0] > 10:
+        df = df[0][:10]
+    frame = pd.concat([frame,df], axis=1, ignore_index=True)
+    ###
+    ### Релевантность 
+relevance = pd.DataFrame()
+#len(all_files)
+for i in range(len(all_files)):
+    print('Введите матрицу релевантности для следующего запроса через запятую:'+'{}'.format(all_files[i]))
+    d = ''
+    while d != 'ok':
+        choice = input(" in, show, next, break")
+        if choice == 'in':
+            print('Введите релевантности через запятую')
+            rel = input()
+            rel = np.fromstring(rel, dtype=int, sep=',').reshape(-1,1)
+        elif choice == 'show':
+            print(rel)
+        elif choice == 'next':
+            if rel.shape[0] == 3:
+                d = 'ok'
+            else:
+                print('Не равен 10')
+        elif choice == 'break':
+            break
+        else:
+            print("That is not a valid input.")
+    relevance = pd.concat([relevance,pd.DataFrame.from_records(rel)], axis=1, ignore_index=True)
+relevance
+###
+### MAP
+Av_all = pd.DataFrame()
+for number_of_querys in range(len(all_files)):
+    P = pd.DataFrame()
+    Av = 0
+    m = np.sum(relevance[number_of_querys][:relevance.shape[0]])
+    for k in range(relevance.shape[0]):
+        P[k] = np.sum(relevance[number_of_querys][:k+1])/(k+1)
+        Av += 1/m*P[k]*relevance[number_of_querys][k]
+    Av_all[number_of_querys] = Av
+MAP = 1/len(all_files)*sum(Av_all)
