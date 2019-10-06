@@ -10,7 +10,7 @@ import org.apache.spark.sql.functions._
 object Indexer{
   def main(args: Array[String]){
     val conf = new SparkConf().setAppName("Sample App")
-    //conf.setMaster("local[4]") //для запуска на локалке
+    conf.setMaster("local[4]") //для запуска на локалке
 
     val sc = new SparkContext(conf)
     //val sqlContext = new SQLContext(sc)
