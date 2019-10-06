@@ -27,10 +27,18 @@ object Ranker{
     val outputFolder = "/Users/V/Desktop/BD_ass/Test7All/"
 
     // read vocabulary\
-    val query_string= List("anarchist vadimvad")
+    val query_string= List("how many years in day day anarchist")
     val query_df = query_string.toDF()
     val voc = mySpark.read.json(inputFolder_Voc).toDF() // read json
     // read query
+
+    //кол-во слов в каждом документе
+    val len = voc.map(f => (f.getString(1),f.getLong(0))).rdd
+      .reduceByKey(_ + _)
+      .map(f => (f._1,f._2))
+
+
+
     //  val query = mySpark.read.text(query_string) // DataFrame
     // preprocess query
     val pat1 = """[\p{Punct}]""" // remove all punctuation
@@ -52,9 +60,15 @@ object Ranker{
     val result = joined_voc.map(f => (f.getString(2),f.getDouble(7))).rdd
       .reduceByKey(_ + _)
       .sortBy(- _._2)
+      .map(f => f._1 +","+ f._2)
 
+    //сохраняем в excel
+    result.toDF()
+      .repartition(1)
+      .write.format("com.databricks.spark.csv")
+      .option("header", "false")
+      .save(outputFolder+""+query_string+".csv")
 
-    val g =0
   }
 }
 
