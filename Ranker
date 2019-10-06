@@ -30,7 +30,7 @@ object MainClass{
     // read vocabulary\
     val query_string= List("What what is --a. Tomato???!my ass currents")
     val query_df = query_string.toDF()
-    val voc = mySpark.read.json(inputFolder_Voc) // read json
+    val voc = mySpark.read.json(inputFolder_Voc).toDF() // read json
     // read query
    //  val query = mySpark.read.text(query_string) // DataFrame
     // preprocess query
@@ -43,11 +43,13 @@ object MainClass{
       .map(line => line.replaceAll(pat2, " "))
       .flatMap(line => line.split(" "))
      // Group similar words
-    val query_group = query_preprocessed.toDF("text").groupBy("text").count()
+    val query_group = query_preprocessed.toDF("text").groupBy("text").count().toDF("text","query_counts")
 
-    val joined_voc = voc.join(query_group, Seq("text"),"left") // join two dataframes
-      .withColumn("tf-idf", col("count") / col("idf"))
+    val joined_voc = voc.join(query_group, Seq("text"),"inner") // join two dataframes by text column
+      .withColumn("query_counts_tf-idf", col("query_counts") / col("idf")) // weights
+      .withColumn("multiplication_tf-idf", col("query_counts_tf-idf") * col("tf-idf"))
 
+    joined_voc.printSchema()
     val q = 1
     /*
     val regex2 = "(.*\\p{Punct}.*)" //регулярное выражение для удаления всех слов с пунктуацией
@@ -141,3 +143,4 @@ object MainClass{
     //val parseResult = parse(rawJson).getOrElse(Json.Null)
     //println(parseResult)*/
   }
+}
