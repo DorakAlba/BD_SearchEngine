@@ -37,7 +37,12 @@ object Ranker{
       .reduceByKey(_ + _)
       .map(f => (f._1,f._2))
 
-
+    //среднее значение
+    val full_len = len.map(f => ("key",f._2))
+      .reduceByKey(_ + _).map(f=>f._2).collect()
+    val doc_count = len.map(f => ("key",1))
+      .reduceByKey(_ + _).map(f=>f._2).collect()
+    val ave = full_len(0)/doc_count(0)
 
     //  val query = mySpark.read.text(query_string) // DataFrame
     // preprocess query
@@ -56,7 +61,7 @@ object Ranker{
       .withColumn("query_counts_tf-idf", col("query_counts") / col("idf")) // weights
       .withColumn("multiplication_tf-idf", col("query_counts_tf-idf") * col("tf-idf"))
 
-    //result of multi
+    //result of multi ranker 1
     val result = joined_voc.map(f => (f.getString(2),f.getDouble(7))).rdd
       .reduceByKey(_ + _)
       .sortBy(- _._2)
@@ -68,6 +73,8 @@ object Ranker{
       .write.format("com.databricks.spark.csv")
       .option("header", "false")
       .save(outputFolder+""+query_string+".csv")
+
+    //ranker 2
 
   }
 }
