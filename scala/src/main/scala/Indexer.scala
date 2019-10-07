@@ -10,7 +10,7 @@ import org.apache.spark.sql.functions._
 object Indexer{
   def main(args: Array[String]){
     val conf = new SparkConf().setAppName("Sample App")
-    conf.setMaster("local[4]") //для запуска на локалке
+    //conf.setMaster("local[4]") //для запуска на локалке
 
     val sc = new SparkContext(conf)
     //val sqlContext = new SQLContext(sc)
@@ -51,7 +51,7 @@ object Indexer{
       .map(line => line.replaceAll(pat3, ""))
       .map(word => (word, 1))
       .reduceByKey(_ + _)
-      .sortBy(- _._2)
+      //.sortBy(- _._2) убираем для оптимизации
       .map(f => f._1 +"\t"+ f._2)
     //vocab.saveAsTextFile(outputFolder)
 
@@ -67,7 +67,7 @@ object Indexer{
     val dss2 = dss.withColumn("text", explode($"text"))
       .groupBy("id","text")
       .count()
-      .sort(asc("id"),desc("count"))
+      //.sort(asc("id"),desc("count")) убираем для оптимизации
 
     //dss2.printSchema()
 

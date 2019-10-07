@@ -6,7 +6,7 @@ import org.apache.spark.sql.functions._
 object Ranker{
   def main(args: Array[String]){ // maim func
     val conf = new SparkConf().setAppName("Sample App") // std things
-    conf.setMaster("local[4]") //для запуска на локалке
+    //conf.setMaster("local[4]") //для запуска на локалке
 
     val sc = new SparkContext(conf) // to read json
     val mySpark = SparkSession
@@ -16,12 +16,15 @@ object Ranker{
       .getOrCreate()
     import mySpark.implicits._ // function fot json
 
-
-    val inputFolder_Voc = "/Users/V/Desktop/BD_ass/Test6All/"
-    val outputFolder = "/Users/V/Desktop/BD_ass/Test7All/"
+    //val inputFolder_Voc = "/Users/V/Desktop/BD_ass/Test6All/"
+    //val outputFolder = "/Users/V/Desktop/BD_ass/Test7All/"
+    val inputFolder_Voc = args(0)
+    val outputFolder = args(1)
 
     // read vocabulary\
-    val query_string= List("how many years in day day anarchist")
+    //val query_string= List("how many years in day day anarchist")
+    val query_string= List(args(2))
+
     val query_df = query_string.toDF()
     val voc = mySpark.read.json(inputFolder_Voc).toDF() // read json
     // read query
