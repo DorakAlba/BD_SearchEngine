@@ -1,12 +1,7 @@
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
-import scala.util.matching.Regex
-import org.apache.spark._
-import org.apache.spark.sql._
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions.explode
 import org.apache.spark.sql.functions._
-import org.apache.spark.broadcast
 
 object Ranker{
   def main(args: Array[String]){ // maim func
@@ -14,7 +9,6 @@ object Ranker{
     conf.setMaster("local[4]") //для запуска на локалке
 
     val sc = new SparkContext(conf) // to read json
-    //val sqlContext = new SQLContext(sc)
     val mySpark = SparkSession
       .builder()
       .appName("Spark SQL basic example")
@@ -75,6 +69,25 @@ object Ranker{
       .save(outputFolder+""+query_string+".csv")
 
     //ranker 2
+    val k = 2.0
+    val b = 0.75
+    val joined_voc2 = joined_voc.join(len.toDF("id","doc_len"), Seq("id"),"left")
+      .withColumn("bm25_1", (col("idf")*col("count")*(k+1)))
+      .withColumn("bm25_2", (((col("doc_len")*b/ave)-b+1)*k+col("count")))
+      .withColumn("bm25",(col("bm25_1")/col("bm25_2")))
+
+    //ранкируем и сортируем
+    val result2 = joined_voc2.map(f => (f.getString(0),f.getDouble(11))).rdd
+      .reduceByKey(_ + _)
+      .sortBy(- _._2)
+      .map(f => f._1 +","+ f._2)
+
+    //сохраняем в excel2
+    result2.toDF()
+      .repartition(1)
+      .write.format("com.databricks.spark.csv")
+      .option("header", "false")
+      .save(outputFolder+"bm"+query_string+".csv")
 
   }
 }

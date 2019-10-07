@@ -7,11 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdda0e64-259e-45ce-9dfa-9198261636d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ranker" beforeDir="false" afterPath="$PROJECT_DIR$/../Ranker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Ranker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Ranker.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$17.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/Ranker$$anonfun$4.class" afterDir="false" />
@@ -178,12 +185,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/Ranker.scala</url>
-          <line>70</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/Ranker.scala</url>
-          <line>47</line>
+          <line>41</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
