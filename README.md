@@ -20,9 +20,14 @@ ranker example:
 spark-submit --deploy-mode cluster --master yarn --class Ranker path/to/ranker/scala.jar /nigeria/BD_assignment_1/indexer_result /nigeria/BD_assignment_1/ranker_result "GOOGLE"
 
 ----------------------
+# metric.ipynb 
+-  read csv files, open links of first 10 documents, count presision (MAP)
+
+----------------------
 #output csv files 
 -
 http://10.90.138.32:9870/explorer.html#/nigeria/BD_assignment_1/
 
 ----------------------
 Trello project. https://trello.com/b/iTcqTfUx/big-data
+it is uneffective for 2 week project of 3 people
