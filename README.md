@@ -21,7 +21,8 @@ spark-submit --deploy-mode cluster --master yarn --class Ranker path/to/ranker/s
 
 ----------------------
 #output csv files 
-  http://10.90.138.32:9870/explorer.html#/nigeria/BD_assignment_1/
+-
+http://10.90.138.32:9870/explorer.html#/nigeria/BD_assignment_1/
 
 ----------------------
 Trello project. https://trello.com/b/iTcqTfUx/big-data
